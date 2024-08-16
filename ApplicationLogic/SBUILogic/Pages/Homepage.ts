@@ -1,6 +1,6 @@
-import { BaseApplicationPage } from "./BaseApplicationPage";
+import { BasePage } from "../../BasePage";
 
-export class Homepage extends BaseApplicationPage {
+export class Homepage extends BasePage {
     constructor(page) {
         super(page);
     }
