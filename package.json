@@ -1,0 +1,21 @@
+{
+  "name": "cpq-sb",
+  "version": "1.0.0",
+  "description": "final project of homework for automation testing",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belashdv/CPQ-SB.git"
+  },
+  "author": "Dmitrii Belash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belashdv/CPQ-SB/issues"
+  },
+  "homepage": "https://github.com/belashdv/CPQ-SB#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "@types/node": "^22.3.0"
+  }
+}
