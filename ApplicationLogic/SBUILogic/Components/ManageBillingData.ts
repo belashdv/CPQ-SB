@@ -1,7 +1,6 @@
-import { BaseApplicationPage } from "../Pages/BaseApplicationPage";
-import { Subscription } from "./Subscription";
+import { BasePage } from "../../BasePage";
 
-export class ManageBillingData extends BaseApplicationPage {
+export class ManageBillingData extends BasePage {
     constructor(page) {
         super(page);
     };

@@ -2,7 +2,7 @@ import { Page } from "@playwright/test";
 import { SBLoginPage } from "./SBLoginPage";
 import { Homepage } from "./Homepage";
 import { ManageSubscriptions } from "../Components/ManageSubscriptions";
-import { Subscription } from "../Components/Subscription"
+import { Subscription } from "../Components/Subscription2";
 
 export class SBPageManager {
     page: Page;
