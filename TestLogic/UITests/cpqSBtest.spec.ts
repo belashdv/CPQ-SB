@@ -1,7 +1,6 @@
-import {expect} from '@playwright/test'; 
 import {test} from '../BaseTest'
 import Log from '../../Data/Utils/Logger'
-import { Products, PageName, Customer, SubscriptionDuration, SubscriptionBillingCycle, DropDownStatus } from '../../Data/Enums/Data.enum';
+import { Products, PageName, Customer, SubscriptionDuration, SubscriptionBillingCycle, DropDownStatus } from '../../Data/Enums/Data.enum.ts';
 
 test.describe('CPQ+SB test', () => {
 
@@ -36,8 +35,5 @@ test.describe('CPQ+SB test', () => {
 
         await sbPageManager.subscription.FillMandatoryFields(14, 7, 12);
         await sbPageManager.subscription.Buttons.Create.click();
-
-        await cpqPageManager.page.pause();
-        await sbPageManager.page.pause();
     })
 })

@@ -1,7 +1,7 @@
 import { test as base, Page } from '@playwright/test'; 
 import { CPQPageManager } from '../ApplicationLogic/CPQUILogic/Pages/CPQPageManager';
 import { SBPageManager } from '../ApplicationLogic/SBUILogic/Pages/SBPageManager';
-import { Credentials, Url } from '../Data/Enums/Data.enum';
+import { Credentials, Url } from '../Data/Enums/Data.enum.ts';
 
 export type TestOptions = {
     domain: string
