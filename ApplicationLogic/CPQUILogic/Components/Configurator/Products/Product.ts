@@ -1,7 +1,7 @@
 import { BaseApplicationPage } from "../../../Pages/BaseApplicationPage";
 
 
-export class ASUS_Zan extends BaseApplicationPage {
+export class Product extends BaseApplicationPage {
     constructor(page) {
         super(page);
     }; 

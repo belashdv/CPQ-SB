@@ -1,5 +1,3 @@
-
-import { Page } from "@playwright/test";
 import { BaseApplicationPage } from "../../Pages/BaseApplicationPage";
 
 export class MainCatalog extends BaseApplicationPage {
@@ -32,3 +30,6 @@ export class MainCatalog extends BaseApplicationPage {
         Favorites: async (productName: string) => this.page.locator(`((//a[contains(text(), "${productName}")]//parent::*))[1]/parent::*/parent::*/span/a`).click(),
     };
 }
+
+
+//a[contains(text(),'Configure')]
