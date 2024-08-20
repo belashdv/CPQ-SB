@@ -1,7 +1,6 @@
-import { Locator } from "@playwright/test";
-import { BaseApplicationPage } from "../Pages/BaseApplicationPage";
+import {BasePage} from "../../BasePage";
 
-export class Subscription extends BaseApplicationPage {
+export class Subscription extends BasePage {
     constructor(page) {
         super(page);
     };
